@@ -5,3 +5,18 @@
   margin: 0 auto;
   padding: 92px 0 24px 0;
 }
+
+@media screen and (max-width: 1279px) {
+  .footer {
+    max-width: 90.625%;
+    padding-top: 88px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .footer {
+    padding-top: 64px;
+    flex-direction: column;
+  }
+}
+
