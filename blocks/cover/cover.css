@@ -1,0 +1,25 @@
+.cover {
+  display: grid;
+  max-width: 1184px;
+  position: relative;
+  grid-template-rows: repeat(2, min-content);
+  grid-gap: 32px;
+  margin: 0 auto;
+}
+
+.cover:before {
+  position: absolute;
+  content: '';
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  background-color: #2a2c2f;
+  opacity: .3;
+  transition: .3s ease;
+}
+
+.cover:hover::before {
+  opacity: .8;
+}
+
