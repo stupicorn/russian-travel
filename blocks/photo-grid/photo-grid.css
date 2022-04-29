@@ -5,3 +5,29 @@
   gap: 16px;
   grid-template-columns: repeat(auto-fit, minmax(284px, 1fr));
 }
+
+@media screen and (max-width: 1279px) {
+  .photo-grid {
+    max-width: 90.625%;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .photo-grid {
+    max-width: 93.75%;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .photo-grid {
+    max-width: 90%;
+    gap: 12px;
+  }
+}
+
+@media screen and (max-width: 319px) {
+  .photo-grid {
+    grid-template-columns: repeat(auto-fit, minmax(248px, 1fr));
+  }
+}
+
