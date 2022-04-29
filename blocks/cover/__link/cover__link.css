@@ -5,3 +5,22 @@
   grid-column: 1;
   z-index: 2;
 }
+
+@media screen and (max-width: 1279px) {
+  .cover__link {
+    min-height: 58vw;
+  }
+}
+
+@media screen and (max-width: 1023px) {
+  .cover__link {
+    min-height: 63vw;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .cover__link {
+    min-height: 200px;
+  }
+}
+
