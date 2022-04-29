@@ -5,3 +5,19 @@
   line-height: 58px;
 }
 
+@media screen and (max-width: 767px) {
+  .intro__title {
+    font-size: 6vw;
+    line-height: 1.1;
+    max-width: 90%;
+    padding-bottom: 16px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .intro__title {
+    font-size: 32px;
+    line-height: 35px;
+  }
+}
+
