@@ -7,3 +7,8 @@
   margin: 0;
   transition: .2s ease-in-out;
 }
+
+.place__link:hover {
+  opacity: 0.8;
+}
+
