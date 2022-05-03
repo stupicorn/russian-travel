@@ -19,11 +19,3 @@
     line-height: 35px;
   }
 }
-
-@media screen and (max-width: 319px) {
-  .cover__title {
-    font-size: 11vw;
-    line-height: 1.1;
-  }
-}
-

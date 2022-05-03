@@ -26,11 +26,3 @@
     max-width: 81%;
   }
 }
-
-@media screen and (max-width: 319px) {
-  .cover__subtitle {
-    font-size: 4vw;
-    line-height: 1.1;
-  }
-}
-
