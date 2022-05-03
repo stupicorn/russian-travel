@@ -1,4 +1,5 @@
 .cover__background {
+  position:absolute;
   background-image: url(../../../images/cover-trains.png);
   background-size: cover;
   -moz-background-size: cover;
@@ -6,5 +7,6 @@
   background-position: center;
   grid-column: 1/2;
   grid-row: 1/3;
+  z-index: -1;
 }
 

@@ -5,8 +5,6 @@
   margin: 0;
   max-width: 560px;
   text-align: center;
-  grid-row: 1;
-  grid-column: 1;
   align-self: end;
   justify-self: center;
   z-index: 1;

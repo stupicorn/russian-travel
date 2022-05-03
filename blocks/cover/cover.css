@@ -1,9 +1,6 @@
 .cover {
-  display: grid;
   max-width: 1184px;
   position: relative;
-  grid-template-rows: repeat(2, min-content);
-  grid-gap: 32px;
   margin: 0 auto;
 }
 
