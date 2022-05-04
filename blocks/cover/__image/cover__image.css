@@ -1,12 +1,7 @@
 .cover__image {
-  position:absolute;
   background-image: url(../../../images/cover-trains.png);
+  min-height: 740px;
   background-size: cover;
-  -moz-background-size: cover;
-  -webkit-background-size: cover;
-  background-position: center;
-  grid-column: 1/2;
-  grid-row: 1/3;
-  z-index: -1;
+  background-position: center center;
 }
 
