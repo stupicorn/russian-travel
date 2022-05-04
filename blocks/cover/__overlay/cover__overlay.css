@@ -1,4 +1,4 @@
-.cover__link {
+.cover__overlay {
   position:relative;
   margin: 0 auto;
   display: flex;
@@ -13,25 +13,25 @@
   color: #fff;
 }
 
-.cover__link:hover {
+.cover__overlay:hover {
   opacity: .8;
   transition: .3s ease;
 }
 
 @media screen and (max-width: 1279px) {
-  .cover__link {
+  .cover__overlay {
     min-height: 58vw;
   }
 }
 
 @media screen and (max-width: 1023px) {
-  .cover__link {
+  .cover__overlay {
     min-height: 63vw;
   }
 }
 
 @media screen and (max-width: 320px) {
-  .cover__link {
+  .cover__overlay {
     min-height: 200px;
   }
 }
