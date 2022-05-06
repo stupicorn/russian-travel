@@ -1,4 +1,4 @@
-.place__image {
+/* .place__image {
   width: 100%;
   grid-row: 2/6;
 }
@@ -7,5 +7,37 @@
   .place__image {
     grid-row: auto;
   }
+} */
+
+.place__image {
+  object-fit: cover;
+  max-width: 460px;
+  max-height: 460px;
+  grid-area: image;
 }
 
+@media screen and (max-width: 1279px) {
+  .place__image {
+    max-width: 440px;
+    max-height: 440px;
+  }
+}
+
+@media screen and (max-width: 1023px) {
+  .place__image {
+    max-width: 340px;
+    max-height: 340px;
+  }
+}
+
+@media screen and (max-width: 750px) {
+  .place__image {
+    margin: 0 auto;
+  }
+}
+
+@media screen and (max-width: 340px) {
+  .place__image {
+    width: 100%;
+  }
+}

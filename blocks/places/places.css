@@ -1,10 +1,9 @@
-.places {
+/* .places {
   display: grid;
   max-width: 984px;
   gap: 80px;
   margin: 0 auto;
   padding-top: 92px;
-  padding-bottom: 92px;
 }
 
 @media screen and (max-width: 1024px) {
@@ -13,11 +12,10 @@
   }
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 769px) {
   .places {
     gap: 73px;
     max-width: 93.75%;
-    padding-top: 88px;
   }
 }
 
@@ -33,6 +31,38 @@
     padding-bottom: 64px;
     padding-top: 64px;
 
+  }
+} */
+
+.places {
+  margin: 92px auto 0;
+  max-width: calc(100% - 148px*2);
+}
+
+@media screen and (max-width: 1279px) {
+  .places {
+    max-width: 928px;
+  }
+}
+
+@media screen and (max-width: 1023px) {
+  .places {
+    max-width: 728px;
+    margin: 88px auto 0;
+  }
+}
+
+
+@media screen and (max-width: 800px) {
+  .places {
+    max-width: calc(100% - 24px*2);
+  }
+}
+
+@media screen and (max-width: 550px) {
+  .places {
+    max-width: 100%;
+    margin: 64px auto 0;
   }
 }
 
