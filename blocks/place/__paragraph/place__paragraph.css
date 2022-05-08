@@ -39,7 +39,7 @@
 .place__paragraph {
   margin: 0;
   font-size: 18px;
-  line-height: 1.62;
+  line-height: 1.63;
 }
 
 .place__paragraph:first-child {
@@ -53,12 +53,6 @@
 @media screen and (max-width: 1023px) {
   .place__paragraph {
     font-size: 16px;
-  }
-}
-
-@media screen and (max-width: 550px) {
-  .place__paragraph {
-    line-height: 1.63;
   }
 }
 
