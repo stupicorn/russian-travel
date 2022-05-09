@@ -1,25 +1,14 @@
-/* .place__url-heading {
-  color: #aaa;
-  font-size: 12px;
-  font-weight: 400;
-  line-height: 12px;
-  letter-spacing: 2px;
-  text-transform: uppercase;
-  margin: 0 0 12px 0;
-} */
-
 .place__url-heading {
   color: #aaa;
   margin: 0;
-  grid-area: website-link;
+  font-size: 12px;
+  line-height: 1.2;
   letter-spacing: 2px;
-  justify-self: start;
-  align-self: end;
+  padding-bottom: 12px;
 }
 
-@media screen and (max-width: 550px) {
+@media screen and (max-width: 1023px) {
   .place__url-heading {
-    margin: 0 16px;
+    line-height: 1;
   }
 }
-

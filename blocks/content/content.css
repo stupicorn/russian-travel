@@ -1,23 +1,21 @@
 .content {
-  margin-top: 56px;
-  margin-bottom: 92px;
+  max-width: 1280px;
+  margin: 56px auto 92px;
 }
 
 @media screen and (max-width: 1279px) {
   .content {
-    margin-top: 48px;
-    margin-bottom: 90px;
+    margin: 48px auto 90px;
   }
 }
 
 @media screen and (max-width: 1023px) {
   .content {
-    margin-bottom: 85px;
-  }
+    margin: 48px auto 85px;
 }
 
 @media screen and (max-width: 550px) {
   .content {
-    margin-bottom: 61px;
+    margin: 48px auto 61px;
   }
 }
