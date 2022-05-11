@@ -2,6 +2,8 @@
   background-color: rgba(42,44,47,.3);
   width: 100%;
   height: 100%;
+  /* Невозможно добиться растягивание секции при переполнении контента, 
+  т.к. контент имеет свойство position: absolute  */
   position: absolute;
   top: 0;
   left: 0;
