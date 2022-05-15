@@ -1,17 +1,33 @@
 .cover__overlay {
   background-color: rgba(42,44,47,.3);
   width: 100%;
-  height: 100%;
+  min-height: 740px;
   /* Невозможно добиться растягивание секции при переполнении контента, 
   т.к. контент имеет свойство position: absolute  */
-  position: absolute;
-  top: 0;
-  left: 0;
-  transition-duration: .6s;
+  position: relative;
   text-decoration: none;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  z-index: 0;
+  justify-content: center;
+  color: white;
+  overflow: hidden;
+  transition-duration: .6s;
 }
 
-.cover__overlay:hover {
+.cover__overlay:before {
+  content: '';
+  background-color: rgba(42,44,47,.3);
+  z-index: -1;
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+
+.cover__overlay:hover:before {
   background-color: rgba(42,44,47,.8);
 }
 
