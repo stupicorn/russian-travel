@@ -1,4 +1,4 @@
-# Путешествие по России
+# Путешествия по России
 
 [ссылка на Github Pages](https://stupicorn.github.io/russian-travel/)
 
