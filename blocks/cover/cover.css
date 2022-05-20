@@ -1,9 +1,6 @@
 .cover {
   margin: 92px 48px 0;
   position: relative;
-  width: 100%;
-  /* Невозможно добиться растягивание секции при переполнении контента,
-  т.к. контент имеет свойство position: absolute  */
 }
 
 @media screen and (max-width: 1279px) {

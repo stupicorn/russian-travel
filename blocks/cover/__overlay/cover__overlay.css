@@ -2,8 +2,6 @@
   background-color: rgba(42,44,47,.3);
   width: 100%;
   min-height: 740px;
-  /* Невозможно добиться растягивание секции при переполнении контента, 
-  т.к. контент имеет свойство position: absolute  */
   position: relative;
   text-decoration: none;
   display: flex;
@@ -31,3 +29,20 @@
   background-color: rgba(42,44,47,.8);
 }
 
+@media screen and (max-width: 1180px) {
+  .cover__overlay {
+    min-height: 640px;
+  }
+}
+
+@media screen and (max-width: 1023px) {
+  .cover__overlay {
+    min-height: 480px;
+  }
+}
+
+@media screen and (max-width: 550px) {
+  .cover__overlay {
+    min-height: 200px;
+  }
+}
